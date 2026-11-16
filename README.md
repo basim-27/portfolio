@@ -6,7 +6,7 @@ A cinematic, responsive personal portfolio for **Basim**, a frontend developer i
 
 Add your deployed URL here after publishing:
 
-`https://your-site-name.netlify.app`
+`(https://basim-27.netlify.app/)`
 
 ## Highlights
 
@@ -44,27 +44,6 @@ portfolio/
 ├── robots.txt
 └── sitemap.xml
 ```
-
-## Deploy on Netlify
-
-### From GitHub (recommended)
-
-1. Create a new GitHub repository and upload these files.
-2. Sign in at [Netlify](https://app.netlify.com/).
-3. Select **Add new project** → **Import an existing project** → **GitHub**.
-4. Select this repository.
-5. Leave the build command empty and set the publish directory to `.` (the repository root).
-6. Select **Publish**.
-7. In **Domain management**, customize the generated `*.netlify.app` address or attach a custom domain.
-
-Future pushes to the connected GitHub repository automatically redeploy the site.
-
-### With drag and drop
-
-1. Go to [Netlify Drop](https://app.netlify.com/drop).
-2. Drag the complete project folder containing `index.html` onto the drop zone.
-3. Netlify will publish the site and give you a `*.netlify.app` URL.
-
 
 ## Contact
 
