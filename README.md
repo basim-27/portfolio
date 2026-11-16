@@ -38,8 +38,6 @@ This is a static website, so no installation or build command is needed.
 
 ```text
 portfolio/
-├── assets/
-│   └── images/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -67,18 +65,6 @@ Future pushes to the connected GitHub repository automatically redeploy the site
 2. Drag the complete project folder containing `index.html` onto the drop zone.
 3. Netlify will publish the site and give you a `*.netlify.app` URL.
 
-## Google Search Console
-
-Google Search Console does not host your portfolio. It verifies the deployed site and lets you request indexing and monitor Google Search performance.
-
-1. Deploy the site first and copy its final HTTPS URL.
-2. Open [Google Search Console](https://search.google.com/search-console/about) and select **Add property**.
-3. For a Netlify URL, choose **URL prefix** and paste the exact site URL, for example `https://your-site.netlify.app/`.
-4. Choose **HTML tag** verification, copy the provided `<meta>` tag, and add it inside the `<head>` of `index.html`.
-5. Commit and deploy the change, then return to Search Console and select **Verify**.
-6. In Search Console, open **Sitemaps**, enter `sitemap.xml`, and select **Submit**.
-
-> Before submitting the sitemap, replace the sample address in `sitemap.xml` with your real Netlify or custom-domain URL.
 
 ## Contact
 
