@@ -4,9 +4,7 @@ A cinematic, responsive personal portfolio for **Basim**, a frontend developer i
 
 ## Live site
 
-Add your deployed URL here after publishing:
-
-`(https://basim-27.netlify.app/)`
+`[https://basim-27.netlify.app/]`
 
 ## Highlights
 
